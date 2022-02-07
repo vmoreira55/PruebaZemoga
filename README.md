@@ -14,7 +14,9 @@ These instructions will allow you to get a working copy of the project on your l
 
 ### -. Api 1: consult user data
    URL: localhost:8080/api/portfolio/8 (8 is the portfolio id)
+   
    Method: GET
+   
    Body: does not apply
    
    When executed, it will show the correct answer as follows:
@@ -49,8 +51,11 @@ These instructions will allow you to get a working copy of the project on your l
    
    ### -. Api 2: Modify some user data
    URL: localhost:8080/api/portfolio/update
+   
    Method: POST
+   
    Body: 
+   
    {
     "description": "I am a systems engineer ",
     "experience": "I have experience in Oracle database and Java programming language.",
