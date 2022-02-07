@@ -12,7 +12,7 @@ These instructions will allow you to get a working copy of the project on your l
 - Import the project in any of the mentioned ides and run the project.
 - Then you need to put the following requests in postman
 
--. ### Api 1: consult user data
+### -. Api 1: consult user data
    URL: localhost:8080/api/portfolio/8 (8 is the portfolio id)
    Method: GET
    Body: does not apply
